@@ -24,7 +24,7 @@ spec:
         - containerPort: 80
 
 ---
-apiVersion: argoproj.io/v1alpha1
+apiVersion: v1
 kind: Rollout
 metadata:
   name: restapp-rollout
